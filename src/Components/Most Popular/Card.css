@@ -1,0 +1,38 @@
+.card{
+    background-color: var(--gray);
+    padding: 30px 15px;
+    border-radius: 23px;
+    max-width: 200px;
+}
+.card img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.title-star{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.category-download{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-star h3{
+    color: #fff;
+    font-size: 15px;
+}
+.title-star h4{
+    color: #fff;
+    font-size: 14px;
+}
+.category-download h4{
+    color: #fff;
+    font-size: 14px;
+}
+.category-download span{
+    color: var(--text);
+
+}

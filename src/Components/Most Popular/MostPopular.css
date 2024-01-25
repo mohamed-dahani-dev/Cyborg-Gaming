@@ -1,0 +1,71 @@
+.most-popular{
+    background-color: var(--black);
+    margin-top: 60px;
+    padding: 30px;
+    border-radius: 23px;
+    position: relative;
+}
+.most-popular-title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.most-popular-title h1{
+    color: #fff;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.most-popular-title h2{
+    font-size: 35px;
+    color: var(--pink);
+}
+.cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.most-popular a{
+    font-size: 14px;
+    color: #fff;
+    background-color: var(--pink);
+    padding: 15px 30px;
+    border-radius: 25px;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.most-popular a:hover{
+    color: var(--pink);
+    background-color: #fff;
+}
+@media screen and (max-width: 700px) {
+    .most-popular-title h1, .most-popular-title h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 565px) {
+    .most-popular-title h1, .most-popular-title h2{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 505px) {
+    .most-popular-title h1, .most-popular-title h2{
+        font-size: 20px;
+    }
+    .most-popular a{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 446px) {
+    .most-popular-title h1, .most-popular-title h2{
+        font-size: 13px;
+    }
+    .most-popular a{
+        font-size: 8px;
+    }
+}

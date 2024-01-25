@@ -1,0 +1,44 @@
+.most-popular-clips-title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.most-popular-clips-title h1{
+    color: #fff;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.most-popular-clips-title h2{
+    font-size: 35px;
+    color: var(--pink);
+}
+.most-popular-clips-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.most-popular-clips hr{
+    margin: 30px 0;
+}
+@media screen and (max-width: 700px) {
+    .most-popular-clips-title h1, .most-popular-clips-title h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 565px) {
+    .most-popular-clips-title h1, .most-popular-clips-title h2{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 505px) {
+    .most-popular-clips-title h1, .most-popular-clips-title h2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 446px) {
+    .most-popular-clips-title h1, .most-popular-clips-title h2{
+        font-size: 13px;
+    }
+}

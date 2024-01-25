@@ -1,0 +1,46 @@
+.hero-text{
+    max-width: 400px;
+}
+.hero-text h6{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+.hero-text h4{
+    font-size: 45px;
+    margin: 25px 0;
+    color: #fff;
+    line-height: 55px;
+}
+.hero-text span{
+    color: var(--pink);
+}
+.hero-text button{
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: var(--pink);
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.hero-text button:hover{
+    background-color: #fff;
+    color: var(--pink);
+}
+.hero{
+    padding: 80px 50px;
+    border-radius: 20px;
+    background-image: url(../../Assets/Images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 590px) {
+    .hero-text h4{
+        font-size: 30px;
+    }
+}

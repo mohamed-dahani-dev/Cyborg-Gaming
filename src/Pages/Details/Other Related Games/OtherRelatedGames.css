@@ -1,0 +1,14 @@
+.other-related-games{
+    background-color: var(--black);
+    padding: 30px;
+    border-radius: 23px;
+    margin-top: 60px;
+}
+.other-related-games-title{
+    margin-bottom: 30px;
+}
+.other-related-games-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

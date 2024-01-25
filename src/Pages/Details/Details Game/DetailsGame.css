@@ -1,0 +1,102 @@
+.details-game{
+    background-color: var(--black);
+    padding: 30px;
+    border-radius: 23px;
+}
+.details-any-game{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.details-any-game-left, .details-any-game-right{
+    background-color: var(--gray);
+    border-radius: 23px;
+    padding: 30px;
+    color: #fff;
+    width: 49%;
+}
+.details-any-game-left div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.details-any-game-left div h4{
+    margin-bottom: 20px;
+}
+.details-any-game-left-gategory{
+    color: var(--text);
+}
+.details-any-game-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.details-any-game-right div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.details-any-game-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.details-any-game-images img{
+    border-radius: 25px;
+}
+.details-any-game-description{
+    color: var(--text);
+    margin: 50px 0;
+    line-height: 30px;
+}
+.details-any-game-btn{
+    text-align: center;
+}
+.details-any-game-btn div{
+    border: 1px solid var(--pink);
+    padding: 15px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .5s;
+}
+.details-any-game-btn div:hover{
+    background-color: #fff;
+}
+.details-any-game-btn a{
+    color: var(--pink);
+}
+
+
+@media screen and (max-width: 770px) {
+    .details-any-game{
+        flex-direction: column;
+    }
+    .details-any-game-left, .details-any-game-right{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 489px) {
+    .details-any-game-right{
+        flex-direction: column;
+    }
+    .details-any-game-left div:last-child{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 519px) {
+    .details-any-game-images img{
+        max-width: 250px;
+    }
+}
+@media screen and (max-width: 470px) {
+    .details-any-game-images img{
+        max-width: 200px;
+    }
+}

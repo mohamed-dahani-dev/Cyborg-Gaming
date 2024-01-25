@@ -1,0 +1,9 @@
+footer{
+    color: #fff;
+    margin: 30px 0;
+    text-align: center;
+    line-height: 22px;
+}
+footer a{
+    color: var(--pink);
+}

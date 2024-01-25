@@ -1,0 +1,75 @@
+.gaming-library-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.gaming-library-title h1 {
+    color: #fff;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.gaming-library-title h2 {
+    font-size: 35px;
+    color: var(--pink);
+}
+
+.gaming-library {
+    background-color: var(--black);
+    margin-top: 60px;
+    padding: 30px;
+    border-radius: 23px;
+    position: relative;
+}
+.gaming-library a{
+    font-size: 14px;
+    color: #fff;
+    background-color: var(--pink);
+    padding: 15px 30px;
+    border-radius: 25px;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.gaming-library a:hover{
+    color: var(--pink);
+    background-color: #fff;
+}
+.gaming-library-cards{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    padding: 20px 0;
+    color: #fff;
+}
+@media screen and (max-width: 700px) {
+    .gaming-library-title h1, .gaming-library-title h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 565px) {
+    .gaming-library-title h1, .gaming-library-title h2{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 505px) {
+    .gaming-library-title h1, .gaming-library-title h2{
+        font-size: 20px;
+    }
+    .gaming-library a{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 446px) {
+    .gaming-library-title h1, .gaming-library-title h2{
+        font-size: 13px;
+    }
+    .gaming-library a{
+        font-size: 8px;
+    }
+}

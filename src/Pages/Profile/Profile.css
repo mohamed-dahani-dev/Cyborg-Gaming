@@ -1,0 +1,9 @@
+.your-profile{
+    background-color: var(--black);
+    padding: 30px;
+    border-radius: 23px;
+    position: relative;
+}
+.your-profile hr{
+    border-color: var(--text);
+}

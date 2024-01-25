@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+:root{
+    --black: #1F2122;
+    --gray: #27292A;
+    --pink: #EC6090;
+    --text: #666666;
+}
+body{
+    background-color: var(--black);
+    width: 90%;
+    margin: 0 auto;
+}

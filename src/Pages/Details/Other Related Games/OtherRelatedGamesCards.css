@@ -1,0 +1,28 @@
+.other-related-games-cards-left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+}
+.other-related-games-cards-left img{
+    border-radius: 23px;
+}
+.other-related-games-cards-left h4{
+    margin-bottom: 10px;
+}
+.other-related-games-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    color: #fff;
+    border-bottom: 1px solid #27292A;
+    padding-bottom: 40px;
+    width: 48%;
+}
+@media screen and (max-width: 800px) {
+    .other-related-games-card{
+        width: 100%;
+    }
+}

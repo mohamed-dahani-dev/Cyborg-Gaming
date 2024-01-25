@@ -1,0 +1,132 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.logo img{
+    cursor: pointer;
+}
+.logo hr{
+    height: 60px;
+    border-color: var(--gray);
+    opacity: 0.5;
+}
+.logo input{
+    padding: 15px;
+    border-radius: 80px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: var(--gray);
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+nav a{
+    color: var(--text);
+    font-size: 15px;
+    transition: 0.2s;
+}
+nav a:hover{
+    color: var(--pink);
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--gray);
+    color: var(--text);
+    padding: 5px 12px;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.profile:hover{
+    background-color: var(--pink);
+    color: #fff;
+}
+.imgProfile img{
+    border-radius: 50%;
+}
+.bar {
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+
+/* V Tablet */
+@media screen and (max-width: 1200px) {
+    body{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    body{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .header{
+        display: none;
+    }
+    body{
+        width: 98%;
+    }
+}
+
+/* Hamburger Menu */
+
+/* @media screen and (max-width: 999px) {
+    body{
+        width: 90%;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    nav {
+        position: fixed;
+        flex-direction: column;
+        right: -1000px;
+        top: 90px;
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+        background-color: #fff;
+        transition: .3s;
+    }
+
+    nav.active {
+        right: 0;
+    }
+} */
